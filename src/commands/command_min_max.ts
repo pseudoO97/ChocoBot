@@ -14,6 +14,8 @@ export const CommandMinMax: CommandData = {
         let min = interaction.options.getNumber('min')??0;
         let max = interaction.options.getNumber('max')??0;
 
+        await interaction.deferReply();
+
         //On vérifie que les deux ne valent pas 0 (le max est réglé a 1 mais on sait jamais)
         if(min == 0 && max == 0) {
             await interaction.followUp({

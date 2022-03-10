@@ -12,6 +12,8 @@ export const CommandTranslate: CommandData = {
         //On récupère les options
         let message = interaction.options.getString('message')??null;
 
+        await interaction.deferReply();
+
         //On vérifie que les deux ne valent pas 0 (le max est réglé a 1 mais on sait jamais)
         if(message == null) {
             await interaction.followUp({

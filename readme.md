@@ -13,7 +13,7 @@ Vous pouvez copier le projet et changer les variables d'environnement pour en fa
 
 ## Commandes du bot
 
-1. /kitten <unknown: number> : Découvrez ce que fait cette commande (Mettez un chiffre petit)
+1. /Choco <unknown: number> : Découvrez ce que fait cette commande (Mettez un chiffre petit)
 2. /translate <message: string> : Traduisez votre message humain en celui d'un chat
 3. /minmax <min:number> <max:number> : Vous donne un chiffre entre un min et max
 

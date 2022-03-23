@@ -10,7 +10,7 @@ console.log("Bot is starting...");
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
 });
-
+ 
 //Ajout d'un evement pour signaler a l'utilisateur que le client a bien démarré
 client.once('ready', () => {
     console.log("The chocolat bot has been started.")

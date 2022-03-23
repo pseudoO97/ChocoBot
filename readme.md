@@ -18,4 +18,4 @@ Vous pouvez copier le projet et changer les variables d'environnement pour en fa
 3. /minmax <min:number> <max:number> : Vous donne un chiffre entre un min et max
 
 - Taguez le bot pour qu'il vous parle en retour avec des émojis
-- Écrivez "miaou" et le bot vous répondra
+- Écrivez "choco" et le bot vous répondra

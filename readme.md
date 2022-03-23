@@ -24,4 +24,4 @@ Vous pouvez copier le projet et changer les variables d'environnement pour en fa
 
 1. Naviguer sur l'url suivante : [https://discord.com/oauth2/authorize?client_id=951390523703296000&permissions=0&scope=bot%20applications.commands]
 2. Ajouter le bot sur le serveur de votre choix.
-3. Miaaaouu !
+3. Chocoo!

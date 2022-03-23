@@ -13,7 +13,7 @@ const client = new Client({
 
 //Ajout d'un evement pour signaler a l'utilisateur que le client a bien démarré
 client.once('ready', () => {
-    console.log("The kitten bot has been started.")
+    console.log("The chocolat bot has been started.")
 });
 
 const token = process.env.APP_TOKEN;

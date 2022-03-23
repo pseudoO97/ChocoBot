@@ -19,9 +19,3 @@ Vous pouvez copier le projet et changer les variables d'environnement pour en fa
 
 - Taguez le bot pour qu'il vous parle en retour avec des émojis
 - Écrivez "miaou" et le bot vous répondra
-
-## Ajouter le bot à votre serveur
-
-1. Naviguer sur l'url suivante : [https://discord.com/oauth2/authorize?client_id=951390523703296000&permissions=0&scope=bot%20applications.commands]
-2. Ajouter le bot sur le serveur de votre choix.
-3. Chocoo!

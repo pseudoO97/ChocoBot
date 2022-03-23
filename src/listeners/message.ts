@@ -1,5 +1,5 @@
 import {Client, Message, MessageMentions} from "discord.js";
-import {Miaou, MiaouText} from "../miaou/miaou";
+import {Chocolat,ChocolatText} from "../chocolat/chocolat";
 
 /**
  * On crée une méthode d'exportation qui va permettre de savoir si un user_discord envoie un message
@@ -18,12 +18,12 @@ export default (client: Client): void => {
         // @ts-ignore
         if(message.mentions.has(client.user.id)) {
             const shoot = client.emojis.cache.random();
-            message.channel.send(`${MiaouText(4, true)} ${shoot}`);
+            message.channel.send(`${ChocolatText(4, true)} ${shoot}`);
         }
 
         //Si miaou est tapé on envoie un autre message
-        if (content.includes("miaou")) {
-            await message.reply(Miaou())
+        if (content.includes("chocolat")) {
+            await message.reply(Chocolat())
         }
 
     })

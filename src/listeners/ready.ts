@@ -2,7 +2,7 @@ import { Client } from "discord.js";
 const { REST } = require('@discordjs/rest');
 import {Routes} from "discord-api-types/v10";
 import {CommandMinMax} from "../commands/command_min_max";
-import {CommandKitten} from "../commands/command_kitten";
+import {Commandchoco} from "../commands/command_choco";
 import {CommandTranslate} from "../commands/command_translate";
 
 /**
@@ -32,7 +32,7 @@ export default (client: Client, token?: string): void => {
     });
 };
 
-export const Commands : any[] = [CommandKitten, CommandMinMax, CommandTranslate];
+export const Commands : any[] = [Commandchoco, CommandMinMax, CommandTranslate];
 
 /**
  * On récupère en tableau les commandes en JSON

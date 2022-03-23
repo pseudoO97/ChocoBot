@@ -18,7 +18,7 @@ export const CommandTranslate: CommandData = {
         if(message == null) {
             await interaction.followUp({
                 ephemeral: true,
-                content: "Merci de rentrer un texte à traduire !"
+                content: "Merci de rentrer un texte pour traduire !"
             });
 
             return;
@@ -33,9 +33,9 @@ export const CommandTranslate: CommandData = {
             let length = word.length;
 
             if(length <= 4) {
-                translated += "miou"
+                translated += "chcolat"
             } else {
-                let w = Math.random() <= 0.5 ? "M" : "m";
+                let w = Math.random() <= 0.5 ? "C" : "c";
                 let count = length - 1;
                 let t = 0;
 
@@ -44,16 +44,16 @@ export const CommandTranslate: CommandData = {
                     for (let j = 0; j < n; j++) {
                         switch (t) {
                             case 0:
-                                w += "i";
+                                w += "h";
                                 break;
                             case 1:
-                                w += "a";
+                                w += "o";
                                 break;
                             case 2:
-                                w += "o"
+                                w += "c"
                                 break;
                             case 3:
-                                w += "u"
+                                w += "o"
                                 break;
                         }
                     }
@@ -64,7 +64,7 @@ export const CommandTranslate: CommandData = {
                 translated += w;
             }
 
-            //On ajoute un espace
+            
             if(i + 1 < words.length) {
                 translated += " ";
             }

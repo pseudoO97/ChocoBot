@@ -1,6 +1,5 @@
 import {BaseCommandInteraction, Client, Message} from "discord.js";
 import {findCommand} from "./ready";
-import {Miaou} from "../miaou/miaou";
 
 /**
  * On crée une méthode d'exportation qui va permettre de savoir si un user_discord fait une interaction , comme une commande par exemple

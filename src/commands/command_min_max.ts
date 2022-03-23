@@ -20,7 +20,7 @@ export const CommandMinMax: CommandData = {
         if(min == 0 && max == 0) {
             await interaction.followUp({
                 ephemeral: true,
-                content: "Il manque des nombres !"
+                content: "Il manque des chiffre !"
             });
 
             return;
@@ -33,7 +33,7 @@ export const CommandMinMax: CommandData = {
             min = t;
         }
 
-        //On récupère notre chiffre aléatoire
+        
         let value = Math.round(Math.random() * (max - min)) + min;
 
         let message = `[${min} - ${max}] Et voici votre chiffre : ${value}`;
@@ -46,7 +46,7 @@ export const CommandMinMax: CommandData = {
             message = value + " ça c'est un chiffre qui en jette ! (Max)"
         }
 
-        //On répond uniquement a celui qui execute la commande
+        //On répond a celui qui execute la commande
         await interaction.followUp({
             ephemeral: true,
             content: message

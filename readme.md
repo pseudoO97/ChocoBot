@@ -7,10 +7,9 @@ Comprenez le langage du chat !
 
 Vous pouvez copier le projet et changer les variables d'environnement pour en faire ce que vous voulez !
 
-1. ```git clone https://github.com/Snyker/KittenBot.git```
-2. ```npm install``` Installer les dépendances
-3. Créer un fichier .env à la racine en copiant le .env-example et changer les variables comme indiquer.
-4. ```npm run start``` Pour lancer le bot
+1. `npm install` Installer les dépendances
+2. Créer un fichier .env à la racine en copiant le .env-example et changer les variables comme indiquer.
+3. `npm run start` Pour lancer le bot
 
 ## Commandes du bot
 

@@ -1,7 +1,7 @@
 # KITTENBOT
 
 Grâce à ce bot génial vous allez vous amuser ! Comme si vous avez plusieurs chats à la maison !
-Comprenez le langage du chat !
+Comprenez le langage choco !
 
 ## Installation
 
